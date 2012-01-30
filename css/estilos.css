@@ -1,0 +1,85 @@
+body {
+  background: url(../img/fondo2.jpg) #615F74 repeat-x top left fixed;
+  font-family: arial, sans-serif; 
+  color: white;
+}
+
+#background {
+  position: relative;
+  width: 100%;
+}
+
+#menu-background {
+  position: fixed;
+  width: 50%;
+  height: 100%;
+}
+
+#content-wrapper {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -537px;
+  width: 1074px;
+}
+
+#menu_background0 {
+  position: relative;
+  width: 100%;
+  top: 40px;
+  height: 60px;
+  background-color: #5B3E42;
+}
+
+#menu_background1 {
+  position: fixed;
+  width: 850px;
+  top: 40px;
+  height: 60px;
+  background-color: #5B3E42;
+}
+
+.transparencia{
+  zoom: 1;
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+}
+
+#content {  
+  position: relative;
+  z-index: -1;
+  width: 100%; 
+}
+
+#logo {
+  width: 100%;
+  height: 630px;
+  background: url(../img/logo.png) transparent no-repeat top left;
+  margin-top: 200px;
+}
+
+ul#menu {
+  margin-top: 20px;
+}
+
+ul#menu li {
+  display: inline;
+}
+
+ul#menu li a {
+  font-size: 18px;
+  color: #9B9BA4;
+  font-weight: bold;
+  text-shadow: 1px 1px #333;
+  text-decoration: none;
+}
+
+ul#menu li a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+ul#menu li a.selected {
+  text-decoration: underline;
+  color: white;
+}
