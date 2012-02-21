@@ -37,6 +37,7 @@ body {
   top: 40px;
   height: 60px;
   background-color: #5B3E42;
+	z-index: 10;
 }
 
 .transparencia{
@@ -47,7 +48,7 @@ body {
 
 #content {  
   position: relative;
-  z-index: -1;
+  z-index: 5;
   width: 100%; 
 }
 
@@ -83,3 +84,10 @@ ul#menu li a.selected {
   text-decoration: underline;
   color: white;
 }
+
+
+.thumbs { margin: 0; padding: 0; overflow: hidden; margin-bottom: 20px;}
+.thumbs li { list-style: none; float: left; margin: 5px; padding: 3px; background: #eee; -moz-box-shadow: 0 0 4px #444; -webkit-box-shadow: 0 0 2px #000; }
+.thumbs li a { }
+.thumbs li img { display: block; }
+.thumbs li a img { border: none; /*width: 222px; height: 153px;*/}

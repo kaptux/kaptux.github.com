@@ -1,5 +1,6 @@
 
 import urllib2
+import json
 
 API_KEY = '3a2878144476a95d5350715ad8e0bc02'
 SECRET  = '486f7250c338e183'
@@ -10,6 +11,9 @@ FLICKR_PHOTOSETS_GET_LIST = 'method=flickr.photosets.getList&api_key=%s&user_id=
 FLICKR_PHOTOSETS_GET_PHOTOS = 'method=flickr.photosets.getPhotos&api_key=%s&format=json&extras=orginal_format,url_m&photoset_id=%s'
 
 def jsonFlickrApi(res): return res
+
+def getPhotoSetsJson(populate=False):
+  return json.dumps(getPhotoSets(populate), sort_keys=True, indent=2)
 
 def getPhotoSets(populate=False):
   res = []
@@ -34,4 +38,8 @@ def getPhotos(photoSetId):
       res.append({'id': photo['id'], 'title': photo['title'], 'url': photo['url_m']})
 
   return res
+
+if __name__ == "__main__":
+  res = getPhotoSetsJson(populate=True)
+  print res
 
