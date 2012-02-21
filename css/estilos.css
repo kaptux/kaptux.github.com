@@ -33,7 +33,7 @@ body {
 
 #menu_background1 {
   position: fixed;
-  width: 850px;
+  width: 1074px;
   top: 40px;
   height: 60px;
   background-color: #5B3E42;
@@ -47,6 +47,7 @@ body {
 }
 
 #content {  
+  margin-top: 120px;
   position: relative;
   z-index: 5;
   width: 100%; 
