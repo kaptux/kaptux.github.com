@@ -13,7 +13,7 @@ FLICKR_PHOTOSETS_GET_PHOTOS = 'method=flickr.photosets.getPhotos&api_key=%s&form
 def jsonFlickrApi(res): return res
 
 def getPhotoSetsJson(populate=False):
-  return json.dumps(getPhotoSets(populate), sort_keys=True, indent=2)
+  return json.dumps(getPhotoSets(populate), sort_keys=True, indent=2).replace('\\\\/', '/').replace('\\\\u', '\u')
 
 def getPhotoSets(populate=False):
   res = []

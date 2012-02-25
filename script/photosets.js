@@ -1,4 +1,21 @@
-photosets = [
+var photosets = [
+  {
+    "description": "", 
+    "id": "72157629450217829", 
+    "photos": [
+      {
+        "id": "6928053599", 
+        "title": "firma", 
+        "url": "http://farm8.staticflickr.com/7203/6928053599_7dc90d7c19.jpg"
+      }, 
+      {
+        "id": "6928054465", 
+        "title": "G", 
+        "url": "http://farm8.staticflickr.com/7200/6928054465_1e9b652cd7.jpg"
+      }
+    ], 
+    "title": "marca"
+  }, 
   {
     "description": "", 
     "id": "72157629088419657", 
@@ -409,7 +426,7 @@ photosets = [
     "title": "Pinturas"
   }, 
   {
-    "description": "", 
+    "description": "Fragmentos de mi vida anotados e ilustrados en una serie de cuadernos desde 1992. Sensaciones y vivencias de Viajes,tanto geogr\u00e1ficos como \nsentimentales.\n \nMi escritura generalmente es m\u00e1s pesimista y dramatica que mi pintura que es lo opuesto y hay pensamientos que solo la poesia puede dar una aproximaci\u00f3n a ellos\n", 
     "id": "72157629088172809", 
     "photos": [
       {
@@ -964,19 +981,9 @@ photosets = [
         "url": "http://farm8.staticflickr.com/7168/6784427193_8de13ac945.jpg"
       }, 
       {
-        "id": "6784416175", 
-        "title": "23", 
-        "url": "http://farm8.staticflickr.com/7155/6784416175_267ab9f5b2.jpg"
-      }, 
-      {
         "id": "6784426355", 
         "title": "39", 
         "url": "http://farm8.staticflickr.com/7143/6784426355_19c7ddace6.jpg"
-      }, 
-      {
-        "id": "6784415259", 
-        "title": "22", 
-        "url": "http://farm8.staticflickr.com/7168/6784415259_deac52c1d5.jpg"
       }, 
       {
         "id": "6784426037", 

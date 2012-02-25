@@ -26,8 +26,8 @@ function loadImages(photosetId) {
 function buildPhotoElement(photo){
   var photoTemplate =  
   '<li>'+
-    '<a rel="colorbox" href="{{size_z}}" title="{{title}}">' +
-      '<img src="{{size_m}}" alt="{{title}}" height="180px" />' +
+    '<a rel="colorbox" href="{{size_b}}" title="{{title}}">' +
+      '<div style="width:222px;height:150px;background:url(\'{{size_m}}\') center no-repeat;"></div>'+
     '</a>' +
   '</li>';
 
@@ -58,6 +58,19 @@ $(document).ready(function(){
     $('#menu .selected').removeClass('selected');
     $(this).addClass('selected');
     $('#content').empty();
-    loadImages(photosetId);
+
+    switch (photosetId) {
+        case "curriculum":
+            $('#curriculum').clone().appendTo('#content').show();
+            break;
+        case "contacto":
+            $('#contacto').clone().appendTo('#content').show();
+            break;
+            break;
+        default:
+            loadImages(photosetId);
+            break;
+    }
+    
 	});
 });
