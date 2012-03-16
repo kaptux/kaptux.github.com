@@ -1,7 +1,8 @@
 body {
-  background: url(../img/fondo2.jpg) #615F74 repeat-x top left fixed;
-  font-family: arial, sans-serif; 
+  background: url(../img/fondo.jpg) #615F74 repeat-x top left fixed;
+  font-family: Monotype, sans-serif; 
   color: white;
+  font-size: 24px;
 }
 
 .bigText {
@@ -13,43 +14,26 @@ body {
   color: white;
 }
 
-#background {
-  position: relative;
-  width: 100%;
+.content {
+  width: 1074px;
+  margin: 0 auto;
 }
 
+#menu-wrapper {
+  margin: 0;
+  background: url(../img/fondo.jpg) #615F74 repeat-x top left fixed;
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  z-index: 1000;
+}
 
 #content-wrapper {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  margin-left: -537px;
-  width: 1074px;
+  padding: 1;
+  width: 100%;
+  z-index: 500;
 }
 
-#menuLeft {
-  height: 85px;
-  background: url('../img/menu_b.png') center repeat-x;
-}
-
-#menuBack {
-  width: 1074px;
-  background: url('../img/menu.png') right no-repeat;
-  height: 85px;
-}
-
-.transparencia{
-  zoom: 1;
-  filter: alpha(opacity=50);
-  opacity: 0.5;
-}
-
-#content {  
-  margin-top: 120px;
-  position: relative;
-  z-index: 5;
-  width: 100%; 
-}
 
 #footer {
   width: 100%;
@@ -58,14 +42,9 @@ body {
 }
 
 
-#logo {
-  width: 100%;
-  height: 630px;
-  background: url(../img/logo.png) transparent no-repeat top left;
-  margin-top: 200px;
-}
 
 ul#menu {
+  margin-top: 40px
 }
 
 ul#menu li {
@@ -73,8 +52,8 @@ ul#menu li {
 }
 
 ul#menu li a {
-  font-size: 18px;
-  color: #9B9BA4;
+  font-size: 26px;
+  color: #FFFFFF;
   font-weight: bold;
   text-shadow: 1px 1px #333;
   text-decoration: none;
