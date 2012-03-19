@@ -29,7 +29,7 @@ body {
   background: url(../img/fondo.jpg) #615F74 repeat-x top left fixed;
   position: fixed;
   width: 100%;
-  height: 80px;
+  height: 88px;
   z-index: 1000;
 }
 
@@ -48,9 +48,10 @@ body {
 
 
 ul#menu {
-  margin-top: 20px;
+  margin-top: 30px;
   background: url(../img/bg-header.png) no-repeat center top;
   height: 80px;
+  text-align:center;
 }
 
 ul#menu li {
@@ -60,7 +61,6 @@ ul#menu li {
 ul#menu li a {
   font-size: 24px;
   color: #FFFFFF;
-  font-weight: bold;
   text-shadow: 1px 1px #333;
   text-decoration: none;
 }
